@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    250deg,
+    rgba(82, 104, 226, 0.719),
+    rgba(49, 194, 150, 0.582)
+  );
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(82, 104, 226, 0.719);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(62, 62, 105);
+  border-radius: 20px;
+}

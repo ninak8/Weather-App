@@ -1,0 +1,77 @@
+.bueno {
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardCitie {
+  background-color: #f5f5f5;
+  width: 23em;
+  height: 28em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin: 5em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 70px #3030306e;
+}
+
+.title {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #303030;
+}
+
+.title .icon {
+  background-color: #303030;
+  border-radius: 50%;
+}
+
+.info {
+  border: 1px solid rgb(150, 150, 255);
+  border-radius: 5px;
+  padding: 10px 0px 15px 0;
+  margin: 1px 0 5px 18px;
+  width: 90%;
+}
+
+.info > p {
+  font-family: sans-serif;
+}
+
+.info .position {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info .position p {
+  font-family: sans-serif;
+}
+
+.left {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-items: center;
+  border: 1px solid rgb(150, 150, 255);
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  padding: 15px 20px 0 20px;
+}
+
+.right {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid rgb(150, 150, 255);
+  border-radius: 0 5px 5px 0px;
+  padding: 15px 20px 0 20px;
+}

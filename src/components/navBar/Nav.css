@@ -1,0 +1,30 @@
+.navBar {
+  width: 100%;
+  height: 5em;
+  background-color: rgb(62, 62, 105);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 4em;
+  margin-left: 4em;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conteiner > h3 {
+  color: #d3daff;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.search {
+  margin-right: 4em;
+}
